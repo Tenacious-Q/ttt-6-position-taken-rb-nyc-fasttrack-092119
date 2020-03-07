@@ -1,5 +1,5 @@
 
-require_relative ../Gemfile
+
 
 def position_taken?(board, index)
 
