@@ -1,10 +1,4 @@
-
-
-
 def position_taken?(board, index)
-
-   board[index] != " "  # the board index value is not an empty space
-
+   board[index] != " " || board[index] != ""
    board[index] == "X" || board[index] == "O"
-
 end
